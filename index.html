@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cinema Ticket</title>
+</head>
+
+<body>
+    <div class="judul">
+        <h1>Selamat Datang Di Cinema Ticket</h1> <br>
+        <div class="list">
+            <button id="lihat-film">Lihat Daftar Film</button>
+            <button id="pesan-tiket">Pesan Tiket</button>
+        </div>
+    </div>
+
+    <div class="film">
+        <h1>DAFTAR FILM</h1>
+        <div class="pusing">
+            <div class="gallery">
+                <img src="assets/avatar.jpg" alt="Avatar 2" width="600" height="400">
+                <div class="desc">
+                    <h2> Avatar: The Way of Water </h2><br>
+                    Jake Sully lives with his newfound family formed on the planet of Pandora. Once a familiar threat
+                    returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi
+                    race to protect their planet.
+                </div>
+            </div>
+
+            <div class="gallery">
+                <img src="assets/red.jpg" alt="One Piece Red" width="600" height="400">
+                <div class="desc">
+                    <h2> One Piece Film: Red </h2> <br>
+                    For the first time ever, Uta - the most beloved singer in the world - will reveal herself to the
+                    world at a live concert. The voice that the whole world has been waiting for is about to resound.
+                </div>
+            </div>
+
+            <div class="gallery">
+                <img src="assets/db.jpg" alt="Dragon Ball" width="600" height="400">
+                <div class="desc">
+                    <h2> Dragon Ball Super: Super Hero </h2> <br>
+                    The Red Ribbon Army from Goku's past has returned with two new androids to challenge him and his
+                    friends.
+                </div>
+            </div>
+
+            <div class="gallery">
+                <img src="assets/jj.jpg" alt="Jujutsu Kaisen" width="600" height="400">
+                <div class="desc">
+                    <h2> Jujutsu Kaisen 0: The Movie </h2> <br>
+                    Yuta Okkotsu, a high schooler who gains control of an extremely powerful Cursed Spirit and gets
+                    enrolled in the Tokyo Prefectural Jujutsu High School by Jujutsu Sorcerers to help him control his
+                    power and keep an eye on him.
+                </div>
+            </div>
+
+            <div class="gallery">
+                <img src="assets/bc.jpg" alt="Black Clover" width="600" height="400">
+                <div class="desc">
+                    <h2> Black Clover </h2> <br>
+                    Asta and Yuno were abandoned together at the same church and have been inseparable since. As
+                    children, they promised that they would compete against each other to see who would become the next
+                    Emperor Magus.
+                </div>
+            </div>
+        </div>
+
+        <div class="bisa">
+            <div class="gallery">
+                <img src="assets/ut.jpg" alt="Until Tomorrow" width="600" height="400">
+                <div class="desc">
+                    <h2> Until Tomorrow </h2> <br>
+                    A woman was diagnosed with stage 3 cancer before her wedding day.
+                </div>
+            </div>
+
+            <div class="gallery">
+                <img src="assets/sm.jpg" alt="Smile" width="600" height="400">
+                <div class="desc">
+                    <h2> Smile </h2> <br>
+                    After witnessing a bizarre, traumatic incident involving a patient, Dr. Rose Cotter starts
+                    experiencing frightening occurrences that she can't explain. Rose must confront her troubling past
+                    in order to survive and escape her horrifying new reality.
+                </div>
+            </div>
+
+            <div class="gallery">
+                <img src="assets/mr.jpg" alt="Mencuri Raden Saleh" width="600" height="400">
+                <div class="desc">
+                    <h2> Raden Saleh </h2><br>
+                    A group plans to steal a priceless historical painting "The Arrest of Prince Diponegoro" by Raden
+                    Saleh from the Presidential Palace.
+                </div>
+            </div>
+
+            <div class="gallery">
+                <img src="assets/or.jpg" alt="Orphan: First Kill" width="600" height="400">
+                <div class="desc">
+                    <h2> Orphan: First Kill </h2> <br>
+                    After orchestrating a brilliant escape from an Estonian psychiatric facility, Esther travels to
+                    America by impersonating the missing daughter of a wealthy family.
+                </div>
+            </div>
+
+            <div class="gallery">
+                <img src="assets/dc.jpeg" alt="DC League of Super-Pets" width="600" height="400">
+                <div class="desc">
+                    <h2> DC League of Super-Pets </h2> <br>
+                    Krypto the Super-Dog and Superman are inseparable best friends, sharing the same superpowers and
+                    fighting crime side by side in Metropolis. However, Krypto must master his own powers for a rescue
+                    mission when Superman is kidnapped.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tiket">
+        <h1>PEMESANAN TIKET</h1>
+        <div class="form">
+            <form id="ticket-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="movie">Movie:</label>
+                <select id="movie" name="movie" required>
+                    <option value="">Select Movie :</option>
+                    <option value="Avatar: The Way of Water">Avatar: The Way of Water</option>
+                    <option value="One Piece Film: Red">One Piece Film: Red</option>
+                    <option value="Dragon Ball Super: Super Hero">Dragon Ball Super: Super Hero</option>
+                    <option value="Jujutsu Kaisen 0: The Movie">Jujutsu Kaisen 0: The Movie</option>
+                    <option value="Black Clover The Movie">Black Clover The Movie</option>
+                    <option value="Until Tomorrow">Until Tomorrow</option>
+                    <option value="Smile">Smile</option>
+                    <option value="Raden Saleh">Raden Saleh</option>
+                    <option value="Orphan: First Kill">Orphan: First Kill</option>
+                    <option value="DC League of Super-Pets">DC League of Super-Pets</option>
+                </select>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" required>
+                <button type="submit" id="purchase">Purchase Tickets</button>
+                <button type="submit" id="purchase-button" class="hidden">Print Ticket</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

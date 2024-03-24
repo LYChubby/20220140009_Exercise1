@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(https://e0.pxfuel.com/wallpapers/463/120/desktop-wallpaper-movie-theatre.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* JUDUL */
+.judul {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.judul > h1 {
+  font-size: 70px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.list > button {
+  width: 300px;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+div.list > button {
+  margin: 50px;
+}
+
+
+/* LIST FILM */
+
+.film {
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+
+.film > h1 {
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-size: 40px;
+}
+
+.pusing, .bisa {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+
+div.gallery {
+  margin: 10px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 450px;
+  background-color: #888888;
+}
+
+div.gallery:hover {
+  border: 1px solid #777777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: white;
+  font-size: 17px;
+  font-weight: 800;
+}
+
+
+/* FORM / TIKET */
+
+.tiket {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  color: white;
+}
+
+form {
+  margin: 40px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+input[type="text"], input[type="email"], input[type="number"], select {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.hidden {
+  display: none;
+}
